@@ -58,6 +58,8 @@ public class App {
         if (rootA != rootB) {
             ans += node[1].getE();
             check[rootB] = rootA;
+            ansArray[node[1].getV1()][node[1].getV2()] = node[1].getE();
+            ansArray[node[1].getV2()][node[1].getV1()] = node[1].getE();
         }
 
         for (int i = 2; i <= e; i++) {
