@@ -115,7 +115,7 @@ public class App {
             array[v2][v1] = weight;
         }
 
-        System.out.println("✔ 연결 그래프 생성 완료 (간선 수: " + edgeCount + ")");
+        System.out.println("연결 그래프 생성 완료 (간선 수: " + edgeCount + ")");
     }
 
     // 연결 그래프 출력 함수 
